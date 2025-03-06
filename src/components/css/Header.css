@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FCF944;
+}
+
+.logo-wrapper {
+    position: relative;
+    width: 17rem; 
+    height: 17rem;
+    margin-right: 20px; 
+}
+
+.dogImg {
+    width: 100%;
+    height: auto;
+}
+
+.catImg {
+    width: 90%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: left;
+    line-height: 1.2;
+    white-space: nowrap; 
+    color: black;
+    font-size: 4.1vw;
+}
+
+
+h2 {
+    font-size: 3rem;
+    color: black;
+}
+
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.donate {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+}
+
+.media-social-wrapper {
+    display: flex;
+    height: 45px;
+    flex-direction: row;
+    gap: 20px;
+    img {
+        width: auto;
+    }
+}
